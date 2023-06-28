@@ -1,0 +1,241 @@
+--Creamos nuestra primer tabla "tabla_1"--
+create table tabla_1 (
+id_p number (10),
+nombre nvarchar2 (50),
+precio nvarchar2 (15),
+Num_tipo number (25),
+Num_mar number (25)
+);
+
+------------------------------------------------------------------------------------------------------
+--Creamos nuestra segunda tabla "tabla_2"--
+create table tabla_2 (
+id_s number (20),
+tipo nvarchar2 (50)
+);
+
+------------------------------------------------------------------------------------------------------
+--Creamos nuestra primer tabla "tabla_3"--
+create table tabla_3 (
+id_t number (20),
+marca nvarchar2 (50)
+);
+
+
+
+drop table tabla_1;
+drop table tabla_2;
+drop table tabla_3;
+
+select *from tabla_1;
+select *from tabla_2;
+select *from tabla_3;
+
+
+------------------------------------------------------------------------------------------------------
+--Insertamos 75 datos en la tabla_1 que contiene id, nombre,precio,num_tipo y num_marca--
+insert into tabla_1 values(1,'Pinta Azul',4,2,2);
+insert into tabla_1 values(2,'Trabalenguas',4,2,2);
+insert into tabla_1 values(3,'Sponch',23,1,13);
+insert into tabla_1 values(4,'Emperador',23,1,1);
+insert into tabla_1 values(5,'Principe',23,1,13);
+insert into tabla_1 values(6,'Carlosv',15,11,5);
+insert into tabla_1 values(7,'Dona',20,12,4);
+insert into tabla_1 values(8,'Pica Fresa',3,2,2);
+insert into tabla_1 values(9,'Rellerindos',5,2,2);
+insert into tabla_1 values(10,'Chokis',23,1,1);
+insert into tabla_1 values(11,'Barritas',23,1,13);
+insert into tabla_1 values(12,'Oreo',23,1,14);
+insert into tabla_1 values(13,'Red Cola',18,4,16);
+insert into tabla_1 values(14,'Jamaica',20,5,4);
+insert into tabla_1 values(15,'Bonafont',20,5,11);
+insert into tabla_1 values(16,'Mango',4,2,2);
+insert into tabla_1 values(17,'Bomba Negra',4,2,2);
+insert into tabla_1 values(18,'Panbazos',30,7,4);
+insert into tabla_1 values(19,'Tacos',30,7,4);
+insert into tabla_1 values(20,'Elotes',4,2,2);
+insert into tabla_1 values(21,'Cupido',4,2,2);
+insert into tabla_1 values(22,'Manita',4,2,2);
+insert into tabla_1 values(23,'Del Valle',20,6,3);
+insert into tabla_1 values(24,'Torta De Jamon',30,7,4);
+insert into tabla_1 values(25,'Torta De Salchicha',30,7,4);
+insert into tabla_1 values(26,'Brocha',4,2,2);
+insert into tabla_1 values(27,'Dulcigomas',15,3,15);
+insert into tabla_1 values(28,'Limon',20,5,4);
+insert into tabla_1 values(29,'Horchata',20,5,4);
+insert into tabla_1 values(30,'Papas',20,8,4);
+insert into tabla_1 values(31,'Mordisko',16,9,6);
+insert into tabla_1 values(32,'Solero',15,9,6);
+insert into tabla_1 values(33,'Frutas',20,5,4);
+insert into tabla_1 values(34,'Panditas',15,3,15);
+insert into tabla_1 values(35,'Dientes',15,3,15);
+insert into tabla_1 values(36,'Gomita Pinguinos',15,3,15);
+insert into tabla_1 values(37,'Moritas',15,3,15);
+insert into tabla_1 values(38,'Gomilocas',15,3,15);
+insert into tabla_1 values(39,'Chips',18,8,8);
+insert into tabla_1 values(40,'Sabritas Naturales',18,8,7);
+insert into tabla_1 values(41,'Coca-Cola',20,4,3);
+insert into tabla_1 values(42,'Jarrito',18,4,16);
+insert into tabla_1 values(43,'Carlosv',15,9,6);
+insert into tabla_1 values(44,'Choco Krispis',20,10,4);
+insert into tabla_1 values(45,'Nesquik',20,10,4);
+insert into tabla_1 values(46,'Boing De Mango',15,6,12);
+insert into tabla_1 values(47,'Boing De Manzana',15,6,12);
+insert into tabla_1 values(48,'Boing De Guayaba',15,6,12);
+insert into tabla_1 values(49,'Froot Loops',20,10,4);
+insert into tabla_1 values(50,'Zucaritas',20,10,4);
+insert into tabla_1 values(51,'Mazapan',5,11,9);
+insert into tabla_1 values(52,'Larin',15,11,5);
+insert into tabla_1 values(53,'Nugs',5,11,9);
+insert into tabla_1 values(54,'Levite',20,5,11);
+insert into tabla_1 values(55,'Nectar De Manzana',16,6,17);
+insert into tabla_1 values(56,'Nectar De Mango',16,6,17);
+insert into tabla_1 values(57,'Arizona',20,6,17);
+insert into tabla_1 values(58,'Ranita',5,11,9);
+insert into tabla_1 values(59,'HersheyS',20,11,10);
+insert into tabla_1 values(60,'Crunch',20,11,5);
+insert into tabla_1 values(61,'Pinguinos',20,12,13);
+insert into tabla_1 values(62,'MM',20,11,18);
+insert into tabla_1 values(63,'Snickers',20,11,18);
+insert into tabla_1 values(64,'Milkyway',20,11,18);
+insert into tabla_1 values(65,'Cornetto',25,9,6);
+insert into tabla_1 values(66,'Pintalengua',15,9,6);
+insert into tabla_1 values(67,'Burritos',30,7,4);
+insert into tabla_1 values(68,'Chilaquiles',30,7,4);
+insert into tabla_1 values(69,'Mini Choc',15,9,6);
+insert into tabla_1 values(70,'Gorditas',25,7,4);
+insert into tabla_1 values(71,'Cheetos',15,8,7);
+insert into tabla_1 values(72,'Paketaxo',20,8,7);
+insert into tabla_1 values(73,'Runners',18,8,8);
+insert into tabla_1 values(74,'Quesadillas',25,7,4);
+insert into tabla_1 values(75,'Takis',18,8,8);
+select *from tabla_1;
+
+
+------------------------------------------------------------------------------------------------------
+--Insertamos datos en la tabla_2 con un trigger en automatico donde se agregaran 5 datos extras que no tendran relacion con la tabla_1--
+
+create sequence secutab
+start with 1
+increment by 1 
+maxvalue 20
+minvalue 1;
+
+create or replace trigger t_sec
+before insert 
+on tabla_2
+for each row
+begin 
+    insert into tabla_2 values (secuencia.nextval,'Alcohol');
+end t_sec;
+
+insert into tabla_2 values (secuencia.nextval,'Galletas');
+insert into tabla_2 values (secuencia.nextval,'Paletas');
+insert into tabla_2 values (secuencia.nextval,'Gomitas');
+insert into tabla_2 values (secuencia.nextval,'Refrescos');
+insert into tabla_2 values (secuencia.nextval,'Aguas');
+insert into tabla_2 values (secuencia.nextval,'Jugos');
+insert into tabla_2 values (secuencia.nextval,'Comida');
+insert into tabla_2 values (secuencia.nextval,'Frituras');
+insert into tabla_2 values (secuencia.nextval,'Helados');
+insert into tabla_2 values (secuencia.nextval,'Cereal con Leche');
+insert into tabla_2 values (secuencia.nextval,'Chocolates');
+insert into tabla_2 values (secuencia.nextval,'Pan');
+insert into tabla_2 values (secuencia.nextval,'Alcohol');
+insert into tabla_2 values (secuencia.nextval,'Juegos de mesa');
+insert into tabla_2 values (secuencia.nextval,'Cigarros');
+insert into tabla_2 values (secuencia.nextval,'Calzado');
+insert into tabla_2 values (secuencia.nextval,'Pericaxo');
+
+select *from tabla_2;
+drop sequence secutab 
+------------------------------------------------------------------------------------------------------
+--Insertamos  datos en la tabla 3 que contiene id_t y marca donde se agregaran 5 datos extras que no tendran relacion con la tabla_1 --
+insert into tabla_3 values(1,'Gamesa');
+insert into tabla_3 values(2,'Vero');
+insert into tabla_3 values(3,'Coca-Cola');
+insert into tabla_3 values(4,'Tesoem');
+insert into tabla_3 values(5,'Nestle');
+insert into tabla_3 values(6,'Holanda');
+insert into tabla_3 values(7,'Sabritas');
+insert into tabla_3 values(8,'Barcel');
+insert into tabla_3 values(9,'La Rosa');
+insert into tabla_3 values(10,'Hershey´S');
+insert into tabla_3 values(11,'Bonafont');
+insert into tabla_3 values(12,'Boing');
+insert into tabla_3 values(13,'Marinela');
+insert into tabla_3 values(14,'Nabisco');
+insert into tabla_3 values(15,'Ricolino');
+insert into tabla_3 values(16,'Jarrito');
+insert into tabla_3 values(17,'Jumex');
+insert into tabla_3 values(18,'Mars Wrigley');
+insert into tabla_3 values(19,'Calvin Klein');
+insert into tabla_3 values(20,'Nike');
+insert into tabla_3 values(21,'Zara');
+insert into tabla_3 values(22,'Patito');
+insert into tabla_3 values(23,'Jose Cuervo');
+select *from tabla_3;
+----------------------------------------------------------JOINs-----------------------------------------------------
+
+--Full join uniendo las 3 tablas donde mandamos a llamar (nombre, precio de la tabla_1), tipo de la tabla_2, y marca de la tabla_3 --
+
+select tabla_1.nombre, tabla_1.precio, tabla_2.tipo, tabla_3.marca from tabla_2 full join tabla_1  ON tabla_2.id_s = tabla_1.Num_tipo full join tabla_3 ON tabla_3.id_t = tabla_1.Num_mar;
+
+------------------------------------------------------------------------------------------------------
+--Inner join uniendo tabla_1 y tabla_3 donde solo muestre los productos que son de parte de "Tesoem" --
+
+select *from tabla_1 inner join tabla_3 on Num_mar=id_t where marca='Tesoem';
+
+------------------------------------------------------------------------------------------------------
+--Left join sin relación de la tabla_1 y tabla_2 --
+
+select *from tabla_1 left join tabla_2 on nombre = tipo;
+
+------------------------------------------------------------------------------------------------------
+--Right join con relación de la tabla_1 y tabla_3 --
+
+select *from tabla_1 right join tabla_3 on Num_mar=id_t ;  
+
+------------------------------------------------------------------------------------------------------
+--Full join sin relación de las 3 tablas (tabla_1, tabla_2, tabla_3)--
+
+select *from tabla_1 full join tabla_2 on Num_tipo=id_s full join tabla_3 on Num_mar=id_t where Num_tipo is null;
+
+------------------------------------------------------------------------------------------------------
+--Join de las 3 tablas donde muestre los productos que empiecen con la letra "T" --
+
+select *from tabla_1 full join tabla_2 on Num_tipo=id_s full join tabla_3 on Num_mar=id_t  where nombre like 'T%'  ; 
+
+------------------------------------------------------------------------------------------------------
+--Creamos una tabla "extra" donde inserto en mi tabla_1 productos que empiece con la letra ‘T’ me imprimira el siguiente texto: ‘Se inserto un producto con la vitamina T’ --
+
+create table extra_p (
+id_ex number (5),
+texto nvarchar2 (60)
+);
+drop table extra;
+
+create or replace trigger tr_tt
+after insert
+on tabla_1 
+for each row
+when (new.nombre like 'T%') 
+begin
+insert into extra_p values (1,'Se inserto un producto con la vitamina T ,'|| :new.nombre);
+end tr_tt;
+
+insert into tabla_1 values(76,'Torta campechana',30,7,4);
+insert into tabla_1 values(77,'Tacos de bistek',30,7,4);
+
+select *from tabla_1;
+select *from extra_p;
+
+
+------------------------------------------------------------------------------------------------------
+--Vista que muestre el id_u, nombre,precio, Num_marca el cual mostrara productos con Num_marca sea igual a '4'--
+create or replace view producto
+as
+select id_p,nombre,precio, Num_mar
+from tabla_1 where Num_mar=4 ;
+
+select * from producto;
